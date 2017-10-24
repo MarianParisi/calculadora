@@ -37,6 +37,7 @@ namespace Calculadora
                 switch(opcion)
                 {
                     case 1:
+
                         Console.WriteLine("ingrese el primer numero"); 
                         int numero1= int.Parse(Console.ReadLine());
                         Console.WriteLine("ingrese el segundo numero"); 
@@ -47,7 +48,7 @@ namespace Calculadora
                         opcion = int.Parse(Console.ReadLine());         
                         break;
                     case 2:         
-                        //multiplicar TODO 
+                        
                         Console.WriteLine("ingrese el primer numero"); 
                         int numero3= int.Parse(Console.ReadLine());
                         Console.WriteLine("ingrese el segundo numero"); 
